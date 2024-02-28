@@ -3,18 +3,10 @@ html, body {
   padding: 0;
 }
 
-canvas, video {
+canvas {
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
-  
-}
-
-video {
-  transform: scaleX(-1);
-}
-
-canvas {
-  z-index: 1;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
 }
